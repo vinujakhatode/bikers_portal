@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+  clear: both;
+}
+/*
+#header{
+  position: absolute;
+  width: 100vw;
+  z-index: 10;
+}
+
+.navbar-brand{
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.navbar-dark .navbar-brand{
+  color: white;
+}
+
+.nav-item{
+  font-weight: 450;
+  float: left;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link{
+  color: white;
+  transition: 0.3s;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+  color: #18D26E;
+  cursor: pointer;
+} */
+/* header{
+  background: url(../assests/images/manali2.jpg);
+  background-size: 100%;
+  width: 100%;
+  height: 800px;
+}
+.main{
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0 200px;
+  background-attachment: fixed;
+}
+ .container{
+  /* background: url(../assests/images/manali2.jpg);
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0 200px;
+  background-attachment: fixed;
+
+}
+
+.header h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-family: Muli,sans-serif;
+    padding-top: 20px ;
+    padding-bottom: 50px;
+    font-size: 50px;
+    color: black;
+}
+
+.header p{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+    text-align: center;
+    color : black;
+    font-family: Muli,sans-serif;
+}*/
+
+.left_side{
+  width: 900px;
+  float: left;
+  /* background: silver;  */
+  /* border: solid 1px lightgray; */
+}
+.right_side{
+  float: right;
+  /* width: 50%; */
+  /* background: red; */
+  /* height: 30px; */
+}
+
+.right_side img{
+  height: 400px;
+  width: 500px;
+  padding-top: 30px  ;
+  padding-right: 30px;
+
+
+}
+
+.day p{
+  color: #000000;
+}
+
+.contentHdng {
+    padding: 10px 30px;
+    font-size: 35px;
+    font-family: Muli,sans-serif;
+    color: #212221;
+}
+.contentHdng h2 {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.day {
+    padding: 0 30px;
+    font-family: 'Times New Roman';
+    color: #212221;
+    font-size: 20px;
+}
+
+h2{
+    padding: 0 40px;
+    color: #212221;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row {
+    padding-left: 40px;
+    color: #212221;
+    font-family: Muli,sans-serif;
+}
+
+.highlights{
+    padding: 5px 40px;
+}
+
+.highlights ul li{
+    font-weight: bold;
+    font-family: Muli,sans-serif;
+   list-style-type: disc;
+}
+
+.facility{
+    padding: 0 30px;
+    font-weight: bold;
+    font-family: Muli,sans-serif;
+}
+/* ----------------
+       USER
+  ---------------- */
+.usermain{
+padding-top: 100px;
+/* background-color: blue; */
+width:100%;
+}
+    #border-box{
+      /* background-color: brown; */
+      width: 1000px;
+      height: 700px;
+      padding: auto;
+      border: 1px solid black;
+    }
+       .user-left{
+         width: 30%;
+         height: 700px;
+         /* margin: 10px; */
+         /* background-color: brown; */
+         float: left;
+         border-right: solid 1px black;
+
+
+       }
+         .user-left img{
+           width: 200px;
+           height: 200px;
+           margin-top: 50px;
+         }
+
+            .user-left a{
+              color: black;
+            }
+         #updatepic {
+           width: 20px;
+           height: 25px;
+           float: right;
+           margin:0 50px;
+         }
+
+         .personal{
+           /* margin: 40px; */
+           margin-top: 80px;
+           font-size: 30px;
+           padding: 10px;
+           border: solid 1px black;
+           /* border-top:black; */
+           border-left: white;
+           border-right: white;
+         }
+
+         .useropt{
+           padding: 15px 0;
+           font-size: 30px ;
+           border-bottom: solid 1px black;
+         }
+
+         .last{
+          padding: 15px 0;
+          font-size: 30px ;
+           border-bottom: white;
+         }
+
+
+         #last{
+           border-bottom: white;
+         }
+
+
+       .user-right{
+         width: 70%;
+         /* background-color: blue; */
+         height: 800px;
+         float: left;
+       }
+
+       .user-right h1{
+         margin-top:40px ;
+         color:black;
+       }
+
+       /* form{
+        border: 1px black solid;
+        height: fit-content;
+        margin: 0 auto;
+        padding: 40px ;
+        width: 400px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+       } */
+       .form_group{
+        margin: 15px 0;
+        /* padding: 10px; */
+       }
+        form label{
+          font-size: 20px;
+        }
+       .form_group input{
+        width: 300px;
+        display: block;
+        padding: 5px;
+        font-size: 15px;
+        border-bottom: 1px solid black;
+       }
+
+        form #submit{
+          border: 1px solid black;
+          padding: 8px 10px;
+          font-size: 15px;
+        }
+
+        form #update{
+          border: 1px solid black;
+          padding: 8px 10px;
+          font-size: 15px;
+        }
+
+        #bike-detail-left{
+          float: left;
+          padding-left: 20px;
+
+        }
+       #bike-detail-right{
+          float: right;
+          padding-right: 20px;
+        }
+     body{
+      background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255,255,255,0.7)),url(../assests/images/img13.jpg);
+      background-size: cover;
+    background-position: center;
+     }
+
+     #userbikesubmit input{
+       border: 1px solid black;
+       padding: 8px 10px;
+        font-size: 20px;
+     }
+
+
+
+
+
+
+    /* .form_group input:focus{
+        box-shadow:inset 0 0 10px silver, 0 0 5px lightcoral ;
+    } */
